@@ -1,8 +1,11 @@
 
+body {
+  font-family: "Lato";
+}
+
 .inner {
-  /* width: 1100px; */
   margin: auto;
-  
+  /* width: 1100px; */
 }
 
 .header {
@@ -11,7 +14,6 @@
   text-align: center;
   background-color: #fff;
   z-index: 1;
-  padding: 15px 0;
 }
 
 .header-inner{
@@ -19,8 +21,9 @@
 }
 
 .fa-bolt{
-  margin: 15px 0;
   opacity: 0.7;
+  font-size: 2em;
+  padding: 15px 0;
   float: left;
 }
 
@@ -29,9 +32,9 @@
   padding: 14px 12px;
   color: #fff;
   background-color: #74cfae	;
-  border-radius: 5%;
   text-decoration: none;
   float: right;
+  margin-top:10px
 }
 
 .header-contents:hover {
@@ -40,8 +43,9 @@
 }
 
 .main {
+  width: 100%;
   background-color: #f2f2f2	;
-  padding-top: 76px;
+  padding-top: 62px;
 }
 
 .theme {
@@ -54,6 +58,7 @@
   font-weight: 700;
   color: #74cfae	;
   padding-bottom: 20px;
+  font-family: "Raleway";
 }
 
 .theme p{
@@ -71,16 +76,23 @@
   display: flex;
 }
 
+.what_we_can_do img{
+  margin-left: 250px;
+}
+
+.what_we_can_do-text{
+  margin-left: 150px;
+}
+
 .what_we_can_do h1 {
   font-size: 24px;
   padding-bottom: 35px;
-
+  font-family: "Raleway";
 }
 
 .what_we_can_do p {
   font-size: 20px;
 }
-
 
 /* ================================================ */
 
@@ -93,17 +105,18 @@
 .our_latest_work h1 {
   font-size: 24px;
   padding-top: 60px;
-
+  font-family: "Raleway";
 }
 
 .our_latest_work p {
   display: inline-block;
 }
 
-
 .our_latest_work img {
   opacity: .7;
   margin: 40px 50px ;
+  /* width: 100%;
+  height: 100%; */
 }
 
 .our_latest_work img:hover {
@@ -120,19 +133,17 @@
   padding: 14px 20px;
   color: #fff;
   background-color: #74cfae	;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   text-decoration: none;
   margin-left: 90px;
   vertical-align: top;
   display: inline-block;
-
 }
 
 .our_latest_work a:hover {
   color: #333;
   transition: .3s;
 }
-
 
 /* ================================================ */
 
@@ -157,43 +168,38 @@
 }
 
 
-
 .our_skills figcaption {
   font-size: 16px;
-
+  padding-top: 20px ;
 }
 
 /* ================================================ */
 
 .sns {
   padding: 200px 0;
-  text-align: center;
+  display: table;
+  margin: 0 auto;
 }
 
 .sns a {
-  /* margin: 200px 0; */
-}
-
-.sns i {
-  color: #74cfae;
   width: 185px;
-  /* height: px; */
+  height: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #74cfae;
   font-size: 2em;
 }
 
-.sns i:hover {
+.sns a:hover {
   background-color: #fff;
   transition: .3s;
 }
 
-
-
 /* ================================================ */
 
-
-
 .footer {
-  /* width: 100%; */
+  width: 100%;
   background-color: #74cfae;
   color: #fff;
   text-align: end;
@@ -202,9 +208,3 @@
 .footer p {
   padding: 20px 0 25px 0;
 }
-
-
-/* デフォルトテキストカラー	#333	
-テーマカラー	#74cfae	
-バックグラウンドカラー（グレー）	#f2f2f2	
-バックグラウンドカラー（ダークグレー）	#4e4e4e */
