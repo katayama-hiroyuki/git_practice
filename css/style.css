@@ -5,19 +5,14 @@ body {
 
 .inner {
   margin: auto;
-  /* width: 1100px; */
+  width: 1100px;
 }
 
 .header {
   width: 100%;
   position: fixed;
-  text-align: center;
   background-color: #fff;
   z-index: 1;
-}
-
-.header-inner{
-  width: 1100px;
 }
 
 .fa-bolt{
@@ -42,15 +37,23 @@ body {
   transition: .3s;
 }
 
+/* ================================================ */
+
 .main {
-  width: 100%;
-  background-color: #f2f2f2	;
   padding-top: 62px;
 }
 
+/* ================================================ */
+
+
+.main_title {
+  width: 100%;
+  background-color: #f2f2f2	;
+}
+
 .theme {
-  text-align: center;
   padding: 250px 0;
+  text-align: center;
 }
 
 .theme h1 {
@@ -69,19 +72,24 @@ body {
 /* ================================================ */
 
 .what_we_can_do {
-  color: #fff;
+  width: 100%;
   background-color: #74cfae	;
+  color: #fff;
+}
+
+.what_we_can_do-inner {
   text-align: center;
   padding-top: 50px;
   display: flex;
 }
 
 .what_we_can_do img{
-  margin-left: 250px;
+  margin-left: 100px;
 }
 
 .what_we_can_do-text{
-  margin-left: 150px;
+  margin-left: 120px;
+  padding-top: 20px;
 }
 
 .what_we_can_do h1 {
@@ -97,7 +105,11 @@ body {
 /* ================================================ */
 
 .our_latest_work {
+  width: 100%;
   background-color: #f2f2f2	;
+}
+
+.our_latest_work-inner {
   text-align: center;
   color: #333;
 }
@@ -112,11 +124,10 @@ body {
   display: inline-block;
 }
 
+
 .our_latest_work img {
   opacity: .7;
   margin: 40px 50px ;
-  /* width: 100%;
-  height: 100%; */
 }
 
 .our_latest_work img:hover {
@@ -124,7 +135,7 @@ body {
   transition: .3s;
 }
 
-.our_latest_work-box {
+.our_latest_work-text {
   padding: 50px 0 70px 0;
 }
 
@@ -133,7 +144,6 @@ body {
   padding: 14px 20px;
   color: #fff;
   background-color: #74cfae	;
-  /* border-radius: 5%; */
   text-decoration: none;
   margin-left: 90px;
   vertical-align: top;
@@ -144,11 +154,16 @@ body {
   color: #333;
   transition: .3s;
 }
+/* :nth-child() */
 
 /* ================================================ */
 
 .our_skills {
+  width: 100%;
   background-color: #4e4e4e;
+}
+
+.our_skills-inner{
   color: #fff;
   text-align: center;
 }
@@ -167,7 +182,6 @@ body {
   padding: 0 90px 100px 90px;
 }
 
-
 .our_skills figcaption {
   font-size: 16px;
   padding-top: 20px ;
@@ -176,22 +190,29 @@ body {
 /* ================================================ */
 
 .sns {
-  padding: 200px 0;
-  display: table;
-  margin: 0 auto;
+  width: 100%;
+  background-color: #f2f2f2	;
 }
 
-.sns a {
+.sns-inner {
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.sns-box {
   width: 185px;
   height: 100px;
-  display: table-cell;
+  line-height:100px;
   text-align: center;
-  vertical-align: middle;
+}
+
+.sns-inner a {
   color: #74cfae;
   font-size: 2em;
 }
 
-.sns a:hover {
+.sns-inner .sns-box:hover {
   background-color: #fff;
   transition: .3s;
 }
